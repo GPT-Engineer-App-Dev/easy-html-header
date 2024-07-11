@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Avatar } from "@/components/ui/avatar";
 import { NavLink } from "react-router-dom";
-import { Home, Info, Services, Contact, Search, User } from "lucide-react";
+import { Home, Info, Briefcase, Contact, Search, User } from "lucide-react";
 
 const Header = () => {
   return (
@@ -18,7 +18,7 @@ const Header = () => {
             <Info className="inline-block w-5 h-5 mr-1" /> About
           </NavLink>
           <NavLink to="/services" className="text-muted-foreground hover:text-foreground">
-            <Services className="inline-block w-5 h-5 mr-1" /> Services
+            <Briefcase className="inline-block w-5 h-5 mr-1" /> Services
           </NavLink>
           <NavLink to="/contact" className="text-muted-foreground hover:text-foreground">
             <Contact className="inline-block w-5 h-5 mr-1" /> Contact
